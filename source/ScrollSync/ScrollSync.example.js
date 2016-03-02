@@ -113,7 +113,50 @@ export default class GridExample extends Component {
                           rowHeight={rowHeight}
                           rowsCount={rowsCount}
                           width={width}
-                        />
+                        >
+                         <div style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }}>
+                           <div style={{
+                             position: 'absolute',
+                             background: 'black',
+                             height: 3,
+                             width: 10,
+                             top: rowHeight / 2,
+                             left: columnWidth - 10
+                           }}/>
+                           <div style={{
+                             position: 'absolute',
+                             background: 'black',
+                             width: 3,
+                             height: rowHeight * 10 + rowHeight / 2,
+                             top: rowHeight / 2,
+                             left: columnWidth
+                           }}/>
+                           <div style={{
+                             position: 'absolute',
+                             background: 'black',
+                             height: 3,
+                             width: columnWidth * 10,
+                             top: rowHeight * 11,
+                             left: columnWidth
+                           }}/>
+                           <div style={{
+                             position: 'absolute',
+                             background: 'black',
+                             width: 3,
+                             height: rowHeight / 2,
+                             top: rowHeight * 11,
+                             left: columnWidth * 11
+                           }}/>
+                           <div style={{
+                             position: 'absolute',
+                             background: 'black',
+                             height: 3,
+                             width: 10,
+                             top: rowHeight * 11 + rowHeight / 2,
+                             left: columnWidth * 11
+                           }}/>
+                         </div>
+                        </Grid>
                       </div>
                     </div>
                   )}

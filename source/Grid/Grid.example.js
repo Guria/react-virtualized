@@ -155,7 +155,9 @@ export default class GridExample extends Component {
               scrollToColumn={scrollToColumn}
               scrollToRow={scrollToRow}
               width={width}
-            />
+            >
+              <div>background</div>
+            </Grid>
           )}
         </AutoSizer>
       </ContentBox>

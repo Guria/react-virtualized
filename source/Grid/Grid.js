@@ -487,6 +487,7 @@ export default class Grid extends Component {
               pointerEvents: isScrolling ? 'none' : 'auto'
             }}
           >
+            {this.props.children}
             {childrenToDisplay}
           </div>
         }

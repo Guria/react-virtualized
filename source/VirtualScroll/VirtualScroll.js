@@ -152,7 +152,9 @@ export default class VirtualScroll extends Component {
         rowsCount={rowsCount}
         scrollToRow={scrollToIndex}
         width={width}
-      />
+      >
+        {this.props.children}
+      </Grid>
     )
   }
 }

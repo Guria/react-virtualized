@@ -2,9 +2,9 @@
   "name": "react-virtualized",
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
-  "user": "bvaughn",
+  "user": "Guria",
   "version": "5.3.1",
-  "homepage": "https://github.com/bvaughn/react-virtualized",
+  "homepage": "https://github.com/Guria/react-virtualized",
   "main": "dist/commonjs/index.js",
   "jsnext:main": "dist/es/index.js",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvaughn/react-virtualized.git"
+    "url": "https://github.com/Guria/react-virtualized.git"
   },
   "keywords": [
     "react",
@@ -50,7 +50,7 @@
     "flexbox"
   ],
   "bugs": {
-    "url": "https://github.com/bvaughn/react-virtualized/issues"
+    "url": "https://github.com/Guria/react-virtualized/issues"
   },
   "standard": {
     "parser": "babel-eslint",
